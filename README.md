@@ -4,7 +4,7 @@ Model-View-Controller (MVC) Challenge: Tech Blog
 # Description
 Tech Blog is a CMS-style blog site where developers can publish their blog posts and comment on posts made by other developers. Inspired by the functionalities of WordPress, this full-stack application follows the Model-View-Controller (MVC) paradigm, using Handlebars.js for server-side rendering, Sequelize as the ORM, and express-session for authentication.
 
-# Features**
+# Features
 - User authentication (signup, login, and logout).
 - Ability to create, view, update, and delete blog posts.
 - Option to comment on blog posts.
