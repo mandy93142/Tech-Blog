@@ -1,0 +1,35 @@
+/* Add this in a public/css/style.css file */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+.blog-header {
+    background-color: #ffd700;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .post {
+    background-color: #f0f0f0;
+    margin: 20px 0;
+    padding: 15px;
+    border-left: 5px solid #ffd700;
+  }
+  
+.post-meta {
+    font-size: 0.85em;
+    color: #666;
+  }
+  

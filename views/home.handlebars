@@ -1,0 +1,15 @@
+<div class="blog-header">
+  <h1>The Tech Blog</h1>
+</div>
+
+{{#each posts as |post|}}
+  <article class="post">
+    <h2>{{post.title}}</h2>
+    <p>{{post.content}}</p>
+    <div class="post-meta">
+      Posted by {{post.user.username}} on {{formatDate post.createdAt}}
+    </div>
+  </article>
+{{else}}
+  <p>No posts to display</p>
+{{/each}}
